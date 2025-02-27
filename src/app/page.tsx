@@ -40,7 +40,7 @@ export default function Home() {
               justifyItems: "center",
             }}
           >
-            <h1>Đỗ Minh Tây</h1>
+            <h1>Do Minh Tay</h1>
           </div>
           <div>
             <h6>JavaScript Developer</h6>
