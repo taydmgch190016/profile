@@ -7,8 +7,8 @@ export default function Home() {
   const imgStyle = {
     borderRadius: "50%",
     border: "10px solid #966464",
-    width: "15em",
-    height: "15em",
+    width: "10rem",
+    height: "10rem",
     margin: "1em",
   };
   const { RiveComponent } = useRive({
@@ -21,17 +21,19 @@ export default function Home() {
     <div
       style={{
         display: "flex",
-        height: "100vh",
         marginTop: "4.5em",
         justifyContent: "center",
         backgroundColor: "#B0C4D9",
-        borderRadius: "2rem",
       }}
     >
+      <div style={{
+        display: "flex",
+        justifyContent: "center"
+      }}>
 
         <Image src={avt} alt="Đỗ Minh Tây" style={imgStyle} />
         <div style={{justifyItems:"center", alignItems: "center", marginBottom: "1em" }}>
-          <RiveComponent style={{width: "150px", height: "150px"}}/>
+          <RiveComponent style={{width: "100px", height: "100px"}}/>
           <div
             style={{
               borderBottom: "2px solid #9f4141",
@@ -41,19 +43,11 @@ export default function Home() {
             <h1>Đỗ Minh Tây</h1>
           </div>
           <div>
-            <h3>JavaScript Developer</h3>
+            <h6>JavaScript Developer</h6>
           </div>
         </div>
-      {/* <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          width: "100vw",
-        }}
-      >
-        <Image src={email} alt="hhh" width={20} height={20} />
-      </div> */}
+        </div>
+      
     </div>
   );
 }

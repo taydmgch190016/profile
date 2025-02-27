@@ -1,6 +1,6 @@
 const Tay = () => {
     return(
-        <div>
+        <div style={{backgroundColor: "green"}}>
             <h1>Tay</h1>
         </div>
     )
