@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import avt from "./avt.png";
-import email from "../../public/email-14-svgrepo-com.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useRive } from "@rive-app/react-canvas";
 export default function Home() {
