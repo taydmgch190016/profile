@@ -19,6 +19,7 @@ export default function Info() {
           flexDirection: "row",
           width: "100vw",
           justifyContent: "space-around",
+          flexWrap: "wrap"
         }}
       >
         <div style={{ alignItems: "center" }}>
