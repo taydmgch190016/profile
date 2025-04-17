@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head><meta name="google-site-verification" content="nxgEv6cTaqWrNOtxwJ_lyhOIyORpEsnqX_yV3dmK_P0" /></head>
       <body >
         
         <Container>
@@ -24,7 +25,6 @@ export default function RootLayout({
           <Info/>
           <Footer/>
         </Container>
-        
       </body>
     </html>
   );
